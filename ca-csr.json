@@ -1,0 +1,19 @@
+{
+  "CN": "My Custom CA",
+  "key": {
+    "algo": "rsa",
+    "size": 2048
+  },
+  "names": [
+    {
+      "C": "VN",
+      "ST": "Hanoi",
+      "L": "Hanoi",
+      "O": "My Company",
+      "OU": "My Department"
+    }
+  ],
+  "ca": {
+    "expiry": "8760h"
+  }
+}
